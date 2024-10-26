@@ -19,7 +19,7 @@ This project uses the TMDb 5000 Movie Dataset from Kaggle. The dataset includes 
 2. Input Movie: Enter a movie title in the provided input field, and the system will output the top 5 recommended movies based on similarity.
 
 
-##Implementation Details
+## Implementation Details
 
 * Data Preprocessing: Data cleaning is done to remove null and duplicate values. Features such as genres, keywords, cast, crew, and overview are extracted, tokenized, and stemmed for optimal text processing.
 * Feature Engineering: Features are combined into a single tags column, which provides a unified description of each movie.
